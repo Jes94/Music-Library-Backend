@@ -1,7 +1,7 @@
-from django.urls import re_path
+from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.songs_list)
-    path('<int:pk>', views.song_details')
+    path('', views.songs_list),
+    path('<int:pk>/', views.song_details),
 ]

@@ -1,1 +1,1 @@
-# MusicLibrary
+The Music Library Backend REST API project is the first part of my first full stack application project! My REST API will serve endpoints accessible through HTTP requests over the internet allowing external applications to interact with your application. 
